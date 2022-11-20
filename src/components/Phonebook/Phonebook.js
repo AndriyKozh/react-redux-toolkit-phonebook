@@ -8,7 +8,6 @@ const Phonebook = () => {
   const filtredContact = contactList.filter(contact =>
     contact.user.nameUser.toLowerCase().includes(contactFilter)
   );
-  console.log(filtredContact);
 
   return (
     <div className="contacts">

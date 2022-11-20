@@ -1,6 +1,7 @@
 import { PhonebookBlock, PhoneBookItem, PhoneBookBtn } from './Contacts.style';
 import { useDispatch } from 'react-redux';
 import { deleteContact } from 'store/phoneSlice';
+import PropTypes from 'prop-types';
 
 const PhoneBookList = ({ id, user }) => {
   const dispatch = useDispatch();
@@ -18,6 +19,11 @@ const PhoneBookList = ({ id, user }) => {
       </PhoneBookBtn>
     </PhonebookBlock>
   );
+};
+
+PhoneBookList.propTypes = {
+  id: PropTypes.string.isRequired,
+  user: PropTypes.objectOf(PropTypes.string),
 };
 
 export default PhoneBookList;
