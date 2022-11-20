@@ -35,7 +35,7 @@ ul {
   border: 1px solid #000;
   width: 400px;
   min-height: 800px;
-  margin-top: 50%;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   border-radius: 50px;
