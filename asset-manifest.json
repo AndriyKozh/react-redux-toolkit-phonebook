@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-redux-toolkit-phonebook/static/css/main.fdc9bbc9.css",
-    "main.js": "/react-redux-toolkit-phonebook/static/js/main.f90ffffe.js",
+    "main.js": "/react-redux-toolkit-phonebook/static/js/main.b289fad5.js",
     "static/media/Rectangle 1395.png": "/react-redux-toolkit-phonebook/static/media/Rectangle 1395.c9522e8f99370a301cc5.png",
     "static/media/img2.akspic.ru-atmosfera-geometriya-matematika-purpur-fioletovyj-1080x1920.jpg": "/react-redux-toolkit-phonebook/static/media/img2.akspic.ru-atmosfera-geometriya-matematika-purpur-fioletovyj-1080x1920.355047737532e43a9f11.jpg",
     "index.html": "/react-redux-toolkit-phonebook/index.html",
     "main.fdc9bbc9.css.map": "/react-redux-toolkit-phonebook/static/css/main.fdc9bbc9.css.map",
-    "main.f90ffffe.js.map": "/react-redux-toolkit-phonebook/static/js/main.f90ffffe.js.map"
+    "main.b289fad5.js.map": "/react-redux-toolkit-phonebook/static/js/main.b289fad5.js.map"
   },
   "entrypoints": [
     "static/css/main.fdc9bbc9.css",
-    "static/js/main.f90ffffe.js"
+    "static/js/main.b289fad5.js"
   ]
 }
