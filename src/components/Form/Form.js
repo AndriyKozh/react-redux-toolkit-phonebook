@@ -51,7 +51,8 @@ const Form = () => {
     if (
       contacts.some(
         contact =>
-          contact.user.nameUser === ev.currentTarget.elements.nameUser.value
+          contact.user.nameUser.toLowerCase() ===
+          ev.currentTarget.elements.nameUser.value.toLowerCase()
       )
     ) {
       Notiflix.Notify.warning('such a contact already exists');
@@ -63,9 +64,10 @@ const Form = () => {
         })
       );
       Notiflix.Notify.success('contact added');
+      setName('');
+      setNumber('');
     }
-    setName('');
-    setNumber('');
+
     // dispatch(addContactGandler(form.elements.numberUser.value));
   };
 

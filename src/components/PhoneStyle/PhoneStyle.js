@@ -14,13 +14,13 @@ const PhoneStyle = () => {
       <div className="btn4"> </div>
       <ul className="icon">
         <li className="icon1">
+          <FaSignal />
+        </li>
+        <li className="icon1">
           <FiWifi />
         </li>
         <li className="icon1">
           <BsBatteryFull />
-        </li>
-        <li className="icon1">
-          <FaSignal />
         </li>
       </ul>
     </div>
